@@ -6,11 +6,11 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
-        MenuController.DisplayMenu();
+        //MenuController.DisplayMenu();
 
 
         // Connection to DBConnection
-        // DBConnection.Connect();
+        DBConnection.Connect();
 
 
     }
