@@ -5,7 +5,7 @@ namespace ConnectionTask
 {
     static class DBConnection
     {
-        static void Connect()
+        public static void Connect()
         {
             string server = "127.0.0.1,1433";
             string database = "MovieStore";
